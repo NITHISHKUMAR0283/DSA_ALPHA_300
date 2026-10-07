@@ -10,5 +10,6 @@
 | Variant 2 | [union_of_Two_array.py](./union_of_Two_array.py) | insert element from both array to set and convert set to list | o(n+m) | o(n+m) |
 | Variant 3 | [Find_Common_characters.py](./Find_Common_characters.py) | build freq for each char in each word and compare the current freq with the previous and take the min value across the keys in both freq  | o(n*m) | o(l) |
 | Variant 4 | [Intersection_of_Three_sorted_array.py](./Intersection_of_Three_sorted_array.py) | three pointer and increment others with respect to one pointer and check everything is equal or not and increment the base pointer | o(len1+len2+len3) | o(min(len1,len2,len3)) |
+| Variant 5 | [Find_Difference_of_Two_array.py](./Find_Difference_of_Two_array.py)| build unique seen set from both array and iterate both array and check the current element is present in other visited set if so add it to the result and remove it from the current set to avoid duplicate | o(max(n,m)) | o(n+m)|
 
 ---
