@@ -1,4 +1,4 @@
-arr = [1,2,1]
+arr = [1,2,3,4,5,1,2,1,0]
 n  = len(arr)
 stack = []
 arr = arr[:]+arr[:]
